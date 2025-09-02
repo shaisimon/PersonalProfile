@@ -262,6 +262,7 @@ section {
     place-items: center;
     gap: 3rem;
     row-gap: 5rem;
+    align-items: stretch;
 }
 .project-card {
     display: flex;
@@ -277,6 +278,8 @@ section {
     overflow: hidden;
     cursor: pointer;
     transition: 0.3s ease;
+    min-height: 520px;
+    height: 100%;
 }
 .project-card:hover {
     transform: scale(1.02);
